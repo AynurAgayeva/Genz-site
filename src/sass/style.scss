@@ -1,0 +1,247 @@
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* remove the gap so it doesn't close */
+}
+
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    background-color: #0f172a;
+}
+   
+.item {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+}
+body {
+  overflow-x: hidden;
+}
+
+.login{
+width: 100%;
+background-color: #0f172a;
+  position: relative;
+
+  .small{
+    color: #94a9c9;
+  }
+  .inputOne{
+    width: 100%;
+    .left{
+        background: #7f92b0;
+        padding: 5px 8px;
+        border: none;
+        margin-left: 10px;
+    }
+
+  }
+ 
+  .btn-login{
+    position: absolute;
+    color: #fff;
+    background-color: #0ea5ea;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    &:hover{
+       color:#0ea5ea;
+    background-color:#fff ;
+    }
+  }
+}
+
+.all {
+  width: 100%;
+
+  background-color: #0f172a;
+  .container {
+    .header-top {
+    
+      .navbar {
+        .container-fluid {
+            .navbar-toggler{
+            
+            }
+          button {
+            background: none;
+            color: #94a9c9;
+            border: none;
+          }
+          .btn {
+            background-color: #0ea5ea;
+            color: #fff;
+            font-weight: 500;
+          }
+          .navbar-nav {
+            .nav-item {
+              .dropdown-menu {
+                background-color: #222f43;
+                li {
+                  padding: 5px;
+                  a {
+                    font-size: 14px;
+                    color: #7f92b0;
+                  }
+                }
+              }
+              a {
+                font-style: normal;
+                font-weight: 450;
+                font-size: 16px;
+                line-height: 16px;
+                letter-spacing: 0.1px;
+                color: #94a9c9;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              }
+              i {
+                font-size: 10px;
+                color: #94a9c9;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.header-bottom {
+  color: #94a9c9;
+  .search-btn {
+    background-color: #222f43;
+    border: 1px solid #0ea5ea;
+    border-radius: 10px;
+    .btn {
+      background-color: #0ea5ea;
+      color: #fff;
+      font-weight: 500;
+    }
+    input {
+      background: none;
+      border: none;
+      box-shadow: none;
+    }
+  }
+  h1 {
+    color: #fff;
+    font-size: 60px;
+  }
+}
+.blog {
+  background-color: #0f172a;
+  color: #94a9c9;
+
+  a {
+    text-decoration: none;
+    color: #94a9c9;
+  }
+  h1 {
+    color: #0ea5ea;
+    font-size: 50px;
+  }
+}
+
+.blog-card {
+  border-radius: 20px;
+  .card-photo {
+    background-color: #222f43;
+    height: 250px;
+    border-radius: 0;
+  }
+  .card-title {
+    font-size: 30px;
+    color: #b9e0f2;
+  }
+  .card-body {
+    border: none;
+    background-color: #222f43;
+  }
+}
+
+.maps {
+  width: 100%;
+  color: #94a9c9;
+
+  background-color: #0f172a;
+  h1 {
+    color: #0ea5ea;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    font-size: 33px;
+    line-height: 1.21em;
+    font-weight: 400;
+  }
+  h5 {
+    color: #94a9c9;
+  }
+  ul {
+    li {
+      font-size: 18px;
+      list-style-type: none;
+      i {
+        color: red;
+        font-size: 18px;
+        line-height: 2.2rem;
+        margin-right: 8px;
+      }
+    }
+  }
+}
+
+.footer-end {
+  color: #94a9c9;
+  background-color: #0f172a;
+  .footer-con {
+    background-color: #222f43;
+    border-radius: 30px;
+    padding: 50px;
+    h5 {
+      color: #0ea5ea;
+    }
+    ul {
+      li {
+        a {
+          color: #94a9c9;
+        }
+      }
+    }
+  }
+}
+// Have a great day!
+
+.slider-all {
+  background-color: #0f172a;
+  color: #94a9c9;
+  .slider {
+    background-color: #222f43;
+    border-radius: 15px;
+    a {
+      .fa-arrow-left {
+        margin-right: 15px;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 1250px) {
+ 
+.slider-all{
+  .container{
+    .viewBig{
+      display: none !important;
+    }
+  }
+}
+
+
+
+
+  
+
+
+}
